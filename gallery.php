@@ -40,10 +40,10 @@
                 <h1 class="display-4">GALLERY</h1>
                 <p class="lead">As a freelance, I like to divide my service between Galway and Castlebar in Mayo.
                  At the moment I am mostly based in Galway.<br>
-                 This gallery is a showcase of my work throughout the year.
+                 This gallery is a showcase of some my work throughout the year.
                 </p>
             
-        </div>
+            </div>
         
                 <div class="row row-cols-1 row-cols-md-3">
                 <div class="col mb-4">
@@ -69,13 +69,13 @@
                 </div>
                 <div>
                     <blockquote class="blockquote mb-0 card-body">
-                    <img src="images/logo/logoAnimatedG.gif">
+                    <img src="images/logo/logoAnimatedG.gif" width="auto"> 
                     <footer class="blockquote-footer">
                     </footer>
                     </blockquote>
                 </div>
                 <div>
-                    // empty divs create space 
+                  
                 </div>
                 <div class="col mb-4">
                     <div class="card">
@@ -109,7 +109,7 @@
                 </div>
                    <div>
                     <blockquote class="blockquote mb-0 card-body">
-                    <img src="images/logo/logoAnimatedG.gif">
+                    <img src="images/logo/logoAnimatedG.gif" width="auto">
                     <footer class="blockquote-footer">
                     
                     </footer>

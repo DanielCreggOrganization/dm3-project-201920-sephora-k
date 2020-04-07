@@ -51,7 +51,7 @@
             <footer class="page-footer font-small pt-4 fixed-bottom">
 
             <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+                <a href="https://www.instagram.com/simply_stephmua/?hl=en"> MDBootstrap.com</a>
             </div>
 
             </footer>

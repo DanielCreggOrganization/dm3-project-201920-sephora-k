@@ -107,14 +107,12 @@
 
         <!-- Footer -->
 
-        <footer class="page-footer font-small blue">
+        <footer class="page-footer font-small pt-4 fixed-bottom">
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-        </div>
-        <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://www.instagram.com/simply_stephmua/?hl=en"> Simply_StephMUA</a>
+            </div>
 
-        </footer>
+            </footer>
 <!-- Footer -->
 </html>
