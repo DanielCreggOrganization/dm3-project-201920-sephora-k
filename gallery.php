@@ -36,7 +36,6 @@
        
         <section class="fwh-slide fwh-slide--bg-lightgray">
             <div class="jumbotron jumbotron-fluid bg-secondary">
-            
                 <h1 class="display-4">GALLERY</h1>
                 <p class="lead">As a freelance, I like to divide my service between Galway and Castlebar in Mayo.
                  At the moment I am mostly based in Galway.<br>

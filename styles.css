@@ -75,7 +75,10 @@ p {
     float: left;
 }
 
-.jumbotron jumbotron-fluid {
+.jumbotron {
+    background-image: url("images/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
 }
 
@@ -83,6 +86,7 @@ p {
     float: center;
     
 }
+   
 
 p .lead {
    color: dimgray;
