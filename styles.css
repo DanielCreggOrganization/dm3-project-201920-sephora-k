@@ -76,7 +76,7 @@ p {
 }
 
 .jumbotron {
-    background-image: url("images/background.jpeg");
+    background-image: url("background.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -84,11 +84,10 @@ p {
 
 .img-fluid {
     float: center;
-    
 }
    
 
-p .lead {
+h3 {
    color: dimgray;
    font-size: 50px;
 }

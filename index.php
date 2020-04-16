@@ -45,12 +45,14 @@
 
             <div class="jumbotron jumbotron-fluid">
                 <h1 class="display-4">Simply Steph Makeup Artist</h1>
+                <h5>Welcome to Simply_StephMUA. I am a freelance makeup artist based in 
+                Galway and Mayo in Castlebar.</h5>
                     <a href="https://www.instagram.com/simply_stephmua/?hl=en" class="fa fa-instagram"></a>
                     <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-snapchat-ghost"></a>
+                    <a href="https://www.snapchat.com/l/en-gb/" class="fa fa-snapchat-ghost"></a>
                     <a href="https://www.youtube.com/user/sophsmithss/featured" class="fa fa-youtube"></a>
 
-                <p class="lead">Keep up with me and follow my socials!</p>
+                <h4>Keep up with me and follow my socials!</h4>
             </div>
                     <img src="images/logo/icon.png" height="250px" width="250px">
         </section> <!-- END OF SECTION 2 -->
@@ -96,7 +98,7 @@
                 </iframe>
 
                 <h2>
-                 Visit my Youtube channel for tutorials, storytimes, chitchats and more!
+                 Visit my Youtube channel tutorials, storytimes, chitchats and more!
                 </h2>
             
             <img src="images/logo/priceList.png" class="rounded float-left" alt="Pricing">
