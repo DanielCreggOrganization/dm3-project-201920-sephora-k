@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="styles.css">
         <!-- icons library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="icon" href="images/logo/icon.jpg" type="image/icon type">
+        <link rel="index.php" href="images/logo/icon.jpg" type="image/icon type">
     </head>
 
     <body>
@@ -35,13 +35,13 @@
         </nav> 
 <!-- *NAVBAR* -->
 
-        <section class="fwh-slide fwh-slide--bg-lightgray">
+        <section class="fwh-slide fwh-slide--bg-lightgray"> <!-- SECTION 1 -->
     
             <img src="images/logo/logoAnimatedG.gif" class="img-fluid" height="800px" width="1000px" alt="Simply Steph">
            
-        </section>
+        </section>  <!-- END OF SECTION 1 -->
 
-        <section class="fwh-slide fwh-slide--bg-silver">
+        <section class="fwh-slide fwh-slide--bg-silver"> <!-- SECTION 2 -->
 
             <div class="jumbotron jumbotron-fluid">
                 <h1 class="display-4">Simply Steph Makeup Artist</h1>
@@ -53,30 +53,30 @@
                 <p class="lead">Keep up with me and follow my socials!</p>
             </div>
                     <img src="images/logo/icon.png" height="250px" width="250px">
-        </section>
+        </section> <!-- END OF SECTION 2 -->
 
-        <section class="fwh-slide fwh-slide--bg-darkgray">
+        <section class="fwh-slide fwh-slide--bg-darkgray"> <!-- SECTION 3 -->
             <div class="content">
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/look_16.jpg" class="d-block w-100" alt="Slideshow">
+                            <img src="images/look_16.jpg" class="d-block w-100" alt="Slideshow" height = "550" width = "500">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="images/look_5.jpg" class="d-block w-100" alt="Slideshow">
+                            <img src="images/look_5.jpg" class="d-block w-100" alt="Slideshow" height = "550" width = "500">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="images/look_12.jpg" class="d-block w-100" alt="Slideshow">
+                            <img src="images/look_12.jpg" class="d-block w-100" alt="Slideshow" height = "550" width = "500">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="images/look_4.jpg" class="d-block w-100" alt="Slideshow">
+                            <img src="images/look_4.jpg" class="d-block w-100" alt="Slideshow" height = "550" width = "500">
                         </div>
                         
                         <div class="carousel-item">
-                            <img src="images/look_11.jpg" class="d-block w-100" alt="Slideshow">
+                            <img src="images/look_11.jpg" class="d-block w-100" alt="Slideshow" height = "550" width = "500">
                         </div>
                     </div>
                 </div>
@@ -86,20 +86,28 @@
                 </h2>
 
                 <a href="gallery.php" class="btn btn-primary btn-lg btn-block active" role="button" aria-pressed="true">Go to Gallery</a>
+                <br>
+                <br>
+                <br>
+            </section> <!-- END OF SECTION 3 -->
 
+            <section class="fwh-slide fwh-slide--bg-lightgray"> <!-- SECTION 4 -->
                 <iframe width="420" height="345" src="https://www.youtube.com/embed/DhvUotj15QU">
                 </iframe>
-             </div>
-        </section>
 
-        <section class="fwh-slide fwh-slide--bg-gray">
-        <br>
-        <img src="images/logo/priceList.png" class="rounded float-left" alt="Pricing">
-        <img src="images/logo/priceList.png" class="rounded float-right" alt="Student Pricing">
+                <h2>
+                 Visit my Youtube channel for tutorials, storytimes, chitchats and more!
+                </h2>
+            
+            <img src="images/logo/priceList.png" class="rounded float-left" alt="Pricing">
+            <img src="images/logo/priceList.png" class="rounded float-right" alt="Student Pricing">
+           
+            <a href="contact.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Go to Bookings</a>
+            <br>
+            <br>
+            <br>
 
-        <a href="contact.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Go to Bookings</a>
-        
-        </section>
+        </section> <!-- END OF SECTION 4 -->
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

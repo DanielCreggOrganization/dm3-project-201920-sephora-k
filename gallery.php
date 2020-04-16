@@ -10,7 +10,7 @@
 <!-- *NAVBAR* -->
         <nav class="navbar navbar-expand-md navbar dark bg-dark sticky-top"> <!-- (option)change sticky top to fixed bottom -->
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="images/logo/icon.png" height="30" width="30"></a>
+                <a class="navbar-brand" href="index.php"><img src="images/logo/icon.png" height="30" width="30"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>

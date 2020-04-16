@@ -8,7 +8,7 @@
 <!-- *NAVBAR* -->
         <nav class="navbar navbar-expand-md navbar dark bg-dark sticky-top"> <!-- (option)change sticky top to fixed bottom -->
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="images/logo/icon.png" height="30" width="30"></a>
+                <a class="navbar-brand" href="index.php"><img src="images/logo/icon.png" height="30" width="30"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,7 +51,7 @@
             <footer class="page-footer font-small pt-4 fixed-bottom">
 
             <div class="footer-copyright text-center py-3">© 2020 Copyright:
-                <a href="https://www.instagram.com/simply_stephmua/?hl=en"> MDBootstrap.com</a>
+                <a href="https://www.instagram.com/simply_stephmua/?hl=en"> Simply_StephMUA</a>
             </div>
 
             </footer>
