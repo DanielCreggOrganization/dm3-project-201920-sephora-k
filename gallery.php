@@ -44,7 +44,7 @@
                 </p>
             
                 <div>
-                    <video width="1200" height="800" autoplay loop>
+                    <video class="promo" width="1000" height="800" autoplay loop>
                         <source src="images/logo/promo.mp4" type="video/mp4">
                     </video>
                 </div>

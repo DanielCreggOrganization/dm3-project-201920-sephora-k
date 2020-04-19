@@ -82,6 +82,12 @@ p {
     margin: 0;
 } 
 
+/*change to max-width for scaling*/
+.promo {
+  width: 100%;
+  height: auto;
+}
+
 .img-fluid {
     float: center;
 }
