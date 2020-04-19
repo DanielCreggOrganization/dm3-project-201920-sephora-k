@@ -43,6 +43,11 @@
                  This gallery is a showcase of some my work throughout the year.
                 </p>
             
+                <div>
+                    <video width="1200" height="800" autoplay loop>
+                        <source src="images/logo/promo.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
         
                 <div class="row row-cols-1 row-cols-md-3">
