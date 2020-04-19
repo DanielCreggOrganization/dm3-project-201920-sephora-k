@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="styles.css">
         <!-- icons library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="index.php" href="images/logo/icon.jpg" type="image/icon type">
+        <link rel="icon" type="image/ico" href="images/logo/icon.png" />
     </head>
 
     <body>

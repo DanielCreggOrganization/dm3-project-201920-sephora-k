@@ -75,12 +75,12 @@ p {
     float: left;
 }
 
-.jumbotron {
-    background-image: url("look_14.jpg");
+.jumbotron jumbotron-fluid {
+    background-image: url("background.png");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-}
+} 
 
 .img-fluid {
     float: center;
@@ -103,6 +103,30 @@ button {
     color: white;
 }
 
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.card {
+   background-color: blueviolet;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/*clear floats after columns*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 form {
    margin: 20px;

@@ -4,6 +4,7 @@
         <title>Gallery</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/ico" href="images/logo/icon.png" />
 
     </head>
     <body>
@@ -35,7 +36,7 @@
 <!-- *NAVBAR* -->       
        
         <section class="fwh-slide fwh-slide--bg-lightgray">
-            <div class="jumbotron jumbotron-fluid bg-secondary">
+            <div class="jumbotron jumbotron-fluid">
                 <h1 class="display-4">GALLERY</h1>
                 <p class="lead">As a freelance, I like to divide my service between Galway and Castlebar in Mayo.
                  At the moment I am mostly based in Galway.<br>

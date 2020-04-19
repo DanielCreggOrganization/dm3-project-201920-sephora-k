@@ -2,6 +2,7 @@
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/ico" href="images/logo/icon.png" />
 
     </head>
     <body>
@@ -33,14 +34,36 @@
 <!-- *NAVBAR* -->
                    
        
-       <!-- ADD JUMBOTRON TO BLOG PAGE -->
+       <!-- ADD JUMBOTRON TO BLOG PAGE 
        <div class="jumbotron">
             <h1 class="display-4">Hello, world!</h1>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
             <hr class="my-4">
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            </div> -->
+
+        <div class = "header">
+            <h2>Steph's Blog</h2>
+        </div>
+
+        <div class = "row">
+            <div class = "leftcolumn">
+                <div class = "card">
+                    <h2>ABOUT ME</h2>
+                    <h5>Get to know me, April 19, 2020</h5>
+                        <img src="background.png" alt="background" height="200px">
+                    <p>My name is Stephanie</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
             </div>
+        </div>
+
+
+
+
+
        
        
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
