@@ -44,7 +44,7 @@
                 </p>
             
                 <div>
-                    <video class="promo" width="1000" height="800" autoplay loop>
+                    <video class="promo" width="700" height="500" autoplay loop>
                         <source src="images/logo/promo.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -74,7 +74,7 @@
                 </div>
                 <div>
                     <blockquote class="blockquote mb-0 card-body">
-                    <img src="images/logo/logoAnimatedG.gif" width="auto"> 
+                    <img src="images/logo/logoAnimatedG.gif" width="400px"> 
                     <footer class="blockquote-footer">
                     </footer>
                     </blockquote>
@@ -114,7 +114,7 @@
                 </div>
                    <div>
                     <blockquote class="blockquote mb-0 card-body">
-                    <img src="images/logo/logoAnimatedG.gif" width="auto">
+                    <img src="images/logo/logoAnimatedG.gif" width="400px">
                     <footer class="blockquote-footer">
                     
                     </footer>
