@@ -92,10 +92,10 @@ p {
     float: center;
 }
    
-.blockquote {
+/*.blockquote {
     
-}
-6  
+} */
+
   
 h3 {
    color: dimgray;
@@ -123,6 +123,13 @@ button {
 .leftcolumn {   
   float: left;
   width: 75%;
+  padding-right: 30px;
+}
+
+.rightcolumn {
+  float: left;
+  width: 20%;
+  padding-left: 10px;
 }
 
 .card {

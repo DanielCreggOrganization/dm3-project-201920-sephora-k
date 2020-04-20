@@ -44,7 +44,7 @@
             </div> -->
 
         <div class = "header">
-            <h2>Steph's Blog</h2>
+            <h2>Stephs Blog</h2>
         </div>
 
         <div class = "row">
@@ -56,6 +56,15 @@
                     <p>My name is Stephanie</p>
                     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+
+            <div class = "rightcolumn">
+                <div class = "card">
+                    <h3>Popular Post</h3>
+                        <div class="fakeimg">Image</div><br>
+                        <div class="fakeimg">Image</div><br>
+                        <div class="fakeimg">Image</div>
                 </div>
             </div>
         </div>
