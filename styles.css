@@ -84,7 +84,7 @@ p {
 
 /*change to max-width for scaling*/
 .promo {
-  max-width: 100%;
+  max-width: 700px;
   height: auto;
 }
 
