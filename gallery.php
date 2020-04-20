@@ -74,7 +74,7 @@
                 </div>
                 <div>
                     <blockquote class="blockquote mb-0 card-body">
-                    <img src="images/logo/logoAnimatedG.gif" width="400px"> 
+                    <img src="images/logo/logoAnimatedG.gif" width="600px"> 
                     <footer class="blockquote-footer">
                     </footer>
                     </blockquote>
@@ -114,7 +114,7 @@
                 </div>
                    <div>
                     <blockquote class="blockquote mb-0 card-body">
-                    <img src="images/logo/logoAnimatedG.gif" width="400px">
+                    <img src="images/logo/logoAnimatedG.gif" width="600px">
                     <footer class="blockquote-footer">
                     
                     </footer>
