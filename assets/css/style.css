@@ -1,8 +1,9 @@
 body{
 	margin:0px;
 	padding:0px;
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Verdana';
 	text-align:center;
+    background-color: #C0C0C0;
 }
 
 input[type="text"], input[type="password"]{

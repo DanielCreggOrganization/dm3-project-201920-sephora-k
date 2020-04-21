@@ -27,16 +27,14 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="contact.php">Contact</a>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="login_db.php">Login</a>
-                    </li>
                     </ul>
                 </div>
         </div>
         </nav>
  <!-- *NAVBAR* -->
 
-            <form action="mailto:someone@example.com" method:"GET">
+
+            <form action="mailto:jane.doe@domain.com" method="GET">
             <h2>Booking Form</h2>
             <div class="form-row">
                 <div class="col">
@@ -48,16 +46,12 @@
                 <input type="text" class="form-control">
                 </div>
             </div>
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
+            
+                <div class="form-group">
+                <label for="exampleFormControlTextarea4">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <div class="form-group col-md-6">
-                <label for="inputPassword4">Password</label>
-                <input type="password" class="form-control" id="inputPassword4">
-                </div>
-            </div>
+            
             <div class="form-group">
                 <label for="inputAddress">Line Address</label>
                 <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
@@ -115,7 +109,8 @@
                 </div>
             </div>
             <br>
-            <button type="submit" class="btn btn-primary">Book Appointment</button>
+            <button type="submit" class="btn btn-primary" value="send">Book Appointment</button> 
+            
             </form>
             <br>
        
