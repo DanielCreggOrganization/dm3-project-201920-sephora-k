@@ -33,7 +33,7 @@
         </nav>
  <!-- *NAVBAR* -->
 
-            <form>
+            <form action="mailto:someone@example.com" method:"GET">
             <h2>Booking Form</h2>
             <div class="form-row">
                 <div class="col">
