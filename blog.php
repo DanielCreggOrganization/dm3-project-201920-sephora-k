@@ -51,17 +51,28 @@
             <div class = "leftcolumn">
                 <div class = "card">
                     <h2>ABOUT ME</h2>
-                    <h5>Get to know me, April 19, 2020</h5>
-                        <img src="images/background.png" alt="background" height="200px">
-                    <p>My name is Stephanie</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <p><i>Get to know me, April 19, 2020</i></p>
+                        <div>
+                            <img src="images/steph.jpg" alt="background" height="450px" width="400px">
+                            <img src="images/steph2.jpg" alt="background" height="450px" width="400px">
+                        </div>
+                    
+                    <p class = "blog">Hi my name is Stephanie Nzigna and this is my blog post.<br>
+                    I am a freelance makeup artist based in Galway and Castlebar in Mayo.<br>
+                    Makeup is my passion and has been for a very long time. I find it very therapeutic. I love creating and experimenting
+                    with new looks. I combined my love for makeup and helping others by creating a makeup service called Simply StephMUA.<br>
+                    I started off just by doing makeup for friends for such occasions such as parties, graduations and sometimes weddings.
+                    I created my Instagram page about two years ago and it really took off from there. <br>
+                    I have gotten recognition a few times by some famous makeup brands such as NYX, SmashBox and Inglot.<br>
+                    I offer a wide range of services on my Instagram page. Check out the homepage for pricing and let me help you become your
+                    extra self!<br> Home visits are also available.
+                    </p>
                 </div>
             </div>
 
             <div class = "rightcolumn">
                 <div class = "card">
-                    <h3>Popular Post</h3>
+                    <h3>Get Creative</h3>
                         <div>
                             <img src="images/lipstick.gif" alt="Lipstick" height="200px" width="100%">
                         </div><br>
@@ -70,6 +81,12 @@
                         </div><br>
                         <div>
                             <img src="images/pink.gif" alt="Pink" height="200px" width="100%">
+                        </div>
+                        <div>
+                            <img src="images/foundation.gif" alt="Foundation" height="200px" width="100%">
+                        </div><br>
+                        <div>
+                            <img src="images/gloss.gif" alt="Gloss" height="200px" width="100%">
                         </div>
                 </div>
             </div>
