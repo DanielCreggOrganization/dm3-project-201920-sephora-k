@@ -36,7 +36,7 @@ if( isset($_SESSION['user_id']) ){
 <body>
 
 <!--	<div class="header">
-		<a href="/">Your App Name</a>
+		<a href="/">Simply StephMUA</a>
 	</div>
 -->
 	<?php if( !empty($user) ): ?>
