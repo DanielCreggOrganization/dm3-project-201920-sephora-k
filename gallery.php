@@ -36,7 +36,7 @@
 <!-- *NAVBAR* -->       
        
         <section class="fwh-slide fwh-slide--bg-lightgray">
-            <div class="jumbotron jumbotron-fluid">
+            <div class="jumbotron jumbotron-fluid bg-secondary">
                 <h1 class="display-4">GALLERY</h1>
                 <p class="lead">As a freelance, I like to divide my service between Galway and Castlebar in Mayo.
                  At the moment I am mostly based in Galway.<br>
@@ -44,7 +44,7 @@
                 </p>
             
                 <div>
-                    <video class="promo" width="700" height="500" autoplay loop>
+                    <video class="promo" width="700" height="700" autoplay loop>
                         <source src="images/logo/promo.mp4" type="video/mp4">
                     </video>
                 </div>

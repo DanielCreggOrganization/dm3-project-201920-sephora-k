@@ -52,7 +52,7 @@
                 <div class = "card">
                     <h2>ABOUT ME</h2>
                     <h5>Get to know me, April 19, 2020</h5>
-                        <img src="background.png" alt="background" height="200px">
+                        <img src="images/background.png" alt="background" height="200px">
                     <p>My name is Stephanie</p>
                     <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -62,9 +62,15 @@
             <div class = "rightcolumn">
                 <div class = "card">
                     <h3>Popular Post</h3>
-                        <div class="fakeimg">Image</div><br>
-                        <div class="fakeimg">Image</div><br>
-                        <div class="fakeimg">Image</div>
+                        <div>
+                            <img src="images/lipstick.gif" alt="Lipstick" height="200px" width="100%">
+                        </div><br>
+                        <div>
+                            <img src="images/swatches.gif" alt="Swatches" height="200px" width="100%">
+                        </div><br>
+                        <div>
+                            <img src="images/pink.gif" alt="Pink" height="200px" width="100%">
+                        </div>
                 </div>
             </div>
         </div>
