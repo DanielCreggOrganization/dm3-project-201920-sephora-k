@@ -1,50 +1,13 @@
-<?php
-
-session_start();
-
-require 'database.php';
-
-if( isset($_SESSION['user_id']) ){
-
-	$records = $conn->prepare('SELECT id,email,password FROM users WHERE id = :id');
-	$records->bindParam(':id', $_SESSION['user_id']);
-	$records->execute();
-	$results = $records->fetch(PDO::FETCH_ASSOC);
-
-	$user = NULL;
-
-	if( count($results) > 0){
-		$user = $results;
-	}
-
-}
-
-?>
-
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Welcome to your Web App</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <!-- icons library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/ico" href="images/logo/icon.png" />
-</head>
-<body>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <!-- icons library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="image/ico" href="images/logo/icon.png" />
+    </head>
 
-<!--	<div class="header">
-		<a href="/">Your App Name</a>
-	</div>
--->
-	<?php if( !empty($user) ): ?>
-
-		<br />You are logged in as: <?= $user['email']; ?> 
-		<a href="logout.php">Logout?</a>
-
-
+    <body>
 <!-- *NAVBAR* -->            
        <nav class="navbar navbar-expand-md navbar dark bg-dark sticky-top"> <!-- (option)change sticky top to fixed bottom -->
         <div class="container-fluid">
@@ -165,16 +128,5 @@ if( isset($_SESSION['user_id']) ){
 
             </footer>
 <!-- Footer -->
-
-
-
-	<?php else: ?>
-
-		<h1>Please Login or Register</h1>
-		<a href="login.php">Login</a> or
-		<a href="register.php">Register</a>
-
-	<?php endif; ?>
-
 </body>
 </html>
