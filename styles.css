@@ -122,15 +122,16 @@ button {
 
 .leftcolumn {   
   float: left;
+  background-color: #A9A9A9;
   width: 75%;
-9A9A9A# :  padding: 30px;
+  padding: 30px;
 }
 
 .rightcolumn {
   float: left;
+  background-color: #C0C0C0;
   width: 20%;
-
-0C0C0C#;background-color: ababB    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .card {
@@ -146,14 +147,6 @@ button {
   clear: both;
 }
 
-
-.blog {
-  display: block;
-  margin-top: 10em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-}
 form {
    margin: 20px;
    padding: 20px;

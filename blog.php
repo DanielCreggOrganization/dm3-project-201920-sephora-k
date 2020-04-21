@@ -44,20 +44,20 @@
             </div> -->
 
         <div class = "header">
-            <h2>Stephs Blog</h2>
+            <h2>M U A - B L O G</h2>
         </div>
 
         <div class = "row">
             <div class = "leftcolumn">
-                <div class = "card">
-                    <h2>ABOUT ME</h2>
+                <div class = "jumbotron">
+                    <h3 class="display-4">ABOUT ME</h3>
                     <p><i>Get to know me, April 19, 2020</i></p>
                         <div>
                             <img src="images/steph.jpg" alt="background" height="450px" width="400px">
                             <img src="images/steph2.jpg" alt="background" height="450px" width="400px">
                         </div>
                     
-                    <p class = "blog">Hi my name is Stephanie Nzigna and this is my blog post.<br>
+                    <p class = "lead">Hi my name is Stephanie Nzigna and this is my blog post.<br>
                     I am a freelance makeup artist based in Galway and Castlebar in Mayo.<br>
                     Makeup is my passion and has been for a very long time. I find it very therapeutic. I love creating and experimenting
                     with new looks. I combined my love for makeup and helping others by creating a makeup service called Simply StephMUA.<br>
