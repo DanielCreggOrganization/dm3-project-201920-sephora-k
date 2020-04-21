@@ -5,7 +5,7 @@ session_start();
 //if (!isset(($_SESSION['username'])){
 	//header('location:login_db.php');}
 	
-	echo "<a href='../db_project/homepage.html'> Go to Home Page</a>";
+	echo "<a href='index.php'> Go to Home Page</a>";
 ?>
 
 <title> User Login and Registration </title>
