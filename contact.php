@@ -112,9 +112,7 @@
                 </div>
             </div>
             <br>
-            <button href="mailto:someone@example.com?Subject=Book%20Appointment" target="_top" type="submit" class="btn btn-primary">
-            Book Appointment
-            </button>
+            <button type="submit" class="btn btn-primary">Book Appointment</button>
             </form>
             <br>
        
