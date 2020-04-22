@@ -35,7 +35,8 @@ endif;
 <head>
 	<title>Login Below</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/ico" href="images/logo/icon.png" />
 </head>
 <body>
 
@@ -53,7 +54,7 @@ endif;
 	<form action="login.php" method="POST">
 		
 		<input type="text" placeholder="Enter your email" name="email">
-		<input type="password" placeholder="and password" name="password">
+		<input type="password" placeholder="Password" name="password">
 
 		<input type="submit">
 
