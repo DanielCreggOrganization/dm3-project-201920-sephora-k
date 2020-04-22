@@ -140,6 +140,10 @@ button {
    margin-top: 20px;
 }
 
+.blog {
+    color: #696969;
+}
+
 /*clear floats after columns*/
 .row:after {
   content: "";

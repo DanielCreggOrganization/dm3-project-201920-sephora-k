@@ -44,7 +44,7 @@
             </div> -->
 
         <div class = "header">
-            <h2>M U A - B L O G</h2>
+            <h2 class="blog">M U A - DIARIES</h2>
         </div>
 
         <div class = "row">
