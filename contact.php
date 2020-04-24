@@ -172,7 +172,7 @@
                 </div>
             </div> -->
             <br>
-            <button type="submit" class="btn btn-primary" name="submit" value="">Book Appointment</button> 
+            <button type="submit" class="btn btn-primary" name="submit" value="">Send Mail</button> 
             
             </form>
         </div>
