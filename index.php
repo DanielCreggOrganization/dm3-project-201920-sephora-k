@@ -86,7 +86,7 @@ if( isset($_SESSION['user_id']) ){
                 <h5>Welcome to Simply_StephMUA. I am a freelance makeup artist based in 
                 Galway and Mayo in Castlebar.</h5>
                     <a href="https://www.instagram.com/simply_stephmua/?hl=en" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="https://twitter.com/explore" class="fa fa-twitter"></a>
                     <a href="https://www.snapchat.com/l/en-gb/" class="fa fa-snapchat-ghost"></a>
                     <a href="https://www.youtube.com/user/sophsmithss/featured" class="fa fa-youtube"></a>
 
