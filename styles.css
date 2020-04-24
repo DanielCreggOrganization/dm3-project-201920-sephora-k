@@ -92,9 +92,9 @@ p {
     float: center;
 }
    
-/*.blockquote {
-    
-} */
+.container {
+    background-color: #D3D3D3;  
+} 
 
   
 h3 {

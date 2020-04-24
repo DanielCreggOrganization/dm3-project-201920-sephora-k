@@ -35,7 +35,7 @@
                 //Additional Headers
                 $headers .= "From: " .$name. "<".$email.">". "\r\n";
 
-                if(mail($toEmail, $subject, $body, $headers)){
+                if(email($toEmail, $subject, $body, $headers)){
                        //Email Sent
                         $msg = 'Your email has been sent';
                         $msgClass = 'alert-success';
