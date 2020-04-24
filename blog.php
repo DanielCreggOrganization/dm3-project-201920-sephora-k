@@ -33,18 +33,8 @@
         </nav>    
 <!-- *NAVBAR* -->
                    
-       
-       <!-- ADD JUMBOTRON TO BLOG PAGE 
-       <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </div> -->
-
-        <div class = "header">
-            <h2 class="blog">M U A - DIARIES</h2>
+       <div class = "header">
+            <h2 class="blog">BLOGS OF A MAKEUP ARTIST</h2>
         </div>
 
         <div class = "row">
@@ -58,7 +48,7 @@
                         </div>
                     
                     <p class = "lead">Hi my name is Stephanie Nzigna and this is my blog post.<br>
-                    I am a freelance makeup artist based in Galway and Castlebar in Mayo.<br>
+                    I am a freelance makeup artist based in Galway and Castlebar in Mayo.
                     Makeup is my passion and has been for a very long time. I find it very therapeutic. I love creating and experimenting
                     with new looks. I combined my love for makeup and helping others by creating a makeup service called Simply StephMUA.<br>
                     I started off just by doing makeup for friends for such occasions such as parties, graduations and sometimes weddings.

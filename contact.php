@@ -1,3 +1,61 @@
+<?php
+    //MESSAGE VARS
+    $msg = '';
+    $msgClass = '';
+
+    //check for submit
+    if(filter_has_var(INPUT_POST, 'submit')){
+        //GET FORM DATA
+        $name = htmlspecialchars($_POST['name']);
+        $email = htmlspecialchars($_POST['email']);
+        $message = htmlspecialchars($_POST['message']);
+
+        //CHECK REQUIRED FIELDS
+        if(!empty($email) && !empty($name) && !empty($message)){
+            //PASSED
+            //CHECK EMAIL
+            if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
+                //FAILED
+                $msg = 'Please use a valid email';
+                $msgClass = 'alert-danger';
+            } else {
+                //Passed
+                
+                $toEmail = 'g00362884@gmit.ie';
+                $subject = 'Contact Request From '.$name;
+                $body = '<h2>Contact Request</h2>
+                    <h4>Name</h4><p>'.$name.'</p>
+                    <h4>Email</h4><p>'.$email.'</p>
+                    <h4>Message</h4><p>'.$message.'</p>
+                ';
+                //EMAIL HEADERS
+                $headers = "MIME-Version: 1.0" ."\r\n";
+                $headers .="Content-Type:text/html;charset UTF-8" . "\r\n";
+
+                //Additional Headers
+                $headers .= "From: " .$name. "<".$email.">". "\r\n";
+
+                if(mail($toEmail, $subject, $body, $headers)){
+                       //Email Sent
+                        $msg = 'Your email has been sent';
+                        $msgClass = 'alert-success';
+                } else {
+                        //Sending failed
+                        $msg = 'Your email was not sent!';
+                        $msgClass = 'alert-danger';
+                }
+            }
+
+        } else {
+            //FAILED
+            $msg = 'Please fill in all fields';
+            $msgClass = 'alert-danger';
+        }
+
+    }
+
+?>
+
 <html>
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -33,26 +91,31 @@
         </nav>
  <!-- *NAVBAR* -->
 
+        <div class="container">
+            <?php if($msg != ''): ?>
+                <div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
+            <?php endif; ?>
 
-            <form action="mailto:jane.doe@domain.com" method="GET">
+
+            <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
             <h2>Booking Form</h2>
-            <div class="form-row">
-                <div class="col">
-                <label>First Name</label>
-                <input type="text" class="form-control">
-                </div>
-                <div class="col">
-                <label>Surname</label>
-                <input type="text" class="form-control">
-                </div>
-            </div>
             
+                <div class="col">
+                <label>Full Name</label>
+                <input type="text" class="form-control" name="name" placeholder = "Full Name" value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
+                </div>
+                            
+                <div class="col">
+                <label>Email</label>
+                <input type="text" class="form-control" name="email" placeholder = "Email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>">
+                </div>
+
                 <div class="form-group">
                 <label for="exampleFormControlTextarea4">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Message"></textarea>
+                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Message" ><?php echo isset($_POST['message']) ? $message : ''; ?></textarea>
                 </div>
             
-            <div class="form-group">
+           <!-- <div class="form-group">
                 <label for="inputAddress">Line Address</label>
                 <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
             </div>
@@ -107,11 +170,12 @@
                 <label for="inputZip">Eir Code</label>
                 <input type="text" class="form-control" id="inputZip">
                 </div>
-            </div>
+            </div> -->
             <br>
-            <button type="submit" class="btn btn-primary" value="send">Book Appointment</button> 
+            <button type="submit" class="btn btn-primary" name="submit" value="">Book Appointment</button> 
             
             </form>
+        </div>
             <br>
        
        
